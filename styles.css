@@ -1,1 +1,59 @@
-/*  your css code here. If applicable */
+ body{
+      margin: 0;
+      padding: 0;
+      background-color : #f5f5f5;
+    }
+    header{
+      overflow: hidden;      
+      position: sticky;
+      margin: 8px;
+      padding: 0;
+      height: 15vh;
+      width: 100vw;
+      background-color:  #011e29;
+      color: white;
+      text-align: center;
+    }
+    .margPadng{
+      padding:1.5vw;
+      text-align: center;
+      background-color: white;
+      border-radius: 15px;
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .hd-fnt{
+      font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .bdy-fnt{
+      font-size: large;
+    }
+    #maicont{
+      display: flex;
+      
+      justify-content: center;
+      align-content: space-around;
+    }
+    /*cont1*/
+    .latest-news-section{
+      width: 22vw;
+      height: fit-content;
+    }
+    #cont2{
+      width: 38vw;
+      height: fit-content;
+      margin-left: 6px;
+      margin-right: 6px;
+    }
+    /*cont3*/
+    .pictorial-news-section{
+      display: flex;
+      flex-direction: column;
+      padding: 10px;
+      align-content: center;      
+      width: fit-content;
+      align-items: center;
+    }
+    img{
+      height: 180px;
+      width: 22vw;
+    }
